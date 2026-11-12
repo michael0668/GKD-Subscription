@@ -1,7 +1,7 @@
 {
   id: 1001,
   name: "michael0668 规则",
-  version: 4,
+  version: 5,
   author: "michael0668",
   updateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
   checkUpdateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
@@ -4772,6 +4772,19 @@
               matches: "@ImageView[clickable=true][visibleToUser=true][childCount=0][width<120 && height<120] <2 RelativeLayout[childCount=2] < ViewGroup[childCount=1] < [id=\"android:id/content\"]",
               exampleUrls: "https://e.gkd.li/4e97c4fa-6d59-4073-8dd1-fc2deb531a41",
               snapshotUrls: "https://i.gkd.li/i/21327613",
+            },
+          ],
+        },
+        {
+          key: 2,
+          name: "关闭底部悬浮小弹窗",
+          activityIds: [
+            "com.nearme.themespace.activities.ThemeMainActivity",
+          ],
+          rules: [
+            {
+              matches: "ImageView[vid=\"content_float_img_close_icon\"]",
+              action: "click",
             },
           ],
         },
