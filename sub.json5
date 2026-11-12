@@ -1,7 +1,7 @@
 {
   id: 1001,
   name: "michael0668 规则",
-  version: 5,
+  version: 6,
   author: "michael0668",
   updateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
   checkUpdateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
@@ -14341,6 +14341,25 @@
               activityIds: ".activities.IntroActivity",
               matches: "@Button[clickable=true][childCount=0][id=null] < View[childCount=1] <3 View - [id=\"app-interstitial-slot\"] >2 [id=\"abgcp\"]",
               snapshotUrls: "https://i.gkd.li/i/23416244",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "com.quark.clouddrive",
+      name: "夸克网盘",
+      groups: [
+        {
+          key: 0,
+          name: "关闭弹窗",
+          activityIds: [
+            "com.ucpro.BrowserActivity",
+          ],
+          rules: [
+            {
+              matches: "ImageView[desc=\"关闭\"]",
+              action: "click",
             },
           ],
         },
