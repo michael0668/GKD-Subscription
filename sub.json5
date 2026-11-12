@@ -4,7 +4,7 @@
 {
   id: 1001,
   name: "michael0668 规则",
-  version: 1,
+  version: 2,
   author: "michael0668",
   updateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
   checkUpdateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
