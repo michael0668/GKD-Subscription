@@ -12,14 +12,27 @@ https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/s
 
 ## 规则说明
 
-本订阅包含两部分规则：
+本订阅包含三部分规则：
 
 ### 1. 自定义应用规则（apps）
 
-| 应用 | 规则 | 说明 |
-|------|------|------|
-| 主题商店 (`com.heytap.themestore`) | 关闭弹窗卡片 | 点击 `close_button` 关闭弹窗，限定 `ThemeMainActivity` |
-| 微信 (`com.tencent.mm`) | 小程序视频广告-跳过 | 点击「跳过」文字关闭小程序视频广告（`clickCenter`） |
+根据手机已安装的用户级应用，从 [Lin-arm/GKD_subscription](https://github.com/Lin-arm/GKD_subscription) 提取匹配的应用规则，并加入本人的自定义规则，共 **44 个应用**。主要覆盖：
+
+| 应用 | 规则组数 |
+|------|---------|
+| 微信 | 46 |
+| 哔哩哔哩 | 34 |
+| 抖音 | 31 |
+| 拼多多 | 26 |
+| 支付宝 | 26 |
+| QQ | 22 |
+| 小红书 | 19 |
+| 淘宝 | 16 |
+| 京东 | 14 |
+| WPS Office / 闲鱼 | 11 |
+| …（其余 33 个应用） | 1~9 |
+
+> 其中微信、主题商店额外包含本人的自定义规则（小程序视频广告跳过、关闭弹窗卡片），与提取规则互补、无冲突。
 
 ### 2. 全局规则（globalGroups / categories）
 
@@ -35,6 +48,7 @@ https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/s
 
 ## 更新日志
 
+- **v3** (2026-11-12)：根据手机已安装应用，从 Lin-arm 订阅提取 44 个应用的规则并整合（微信 46、B站 34、抖音 31、拼多多 26、支付宝 26 等）。
 - **v2** (2026-11-12)：整合 Lin-arm 全局规则（categories + 3 条 globalGroups），全局规则全部启用。
 - **v1** (2026-11-12)：初始版本。包含主题商店、微信两条自定义规则。
 
