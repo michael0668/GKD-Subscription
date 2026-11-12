@@ -1,7 +1,7 @@
 {
   id: 1001,
   name: "michael0668 规则",
-  version: 3,
+  version: 4,
   author: "michael0668",
   updateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
   checkUpdateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
@@ -4795,6 +4795,7 @@
               ],
             },
           ],
+          enable: true,
         },
         {
           key: 1,
@@ -4821,6 +4822,7 @@
               exampleUrls: "https://e.gkd.li/4434dd75-1c9c-4c4a-a6fb-47490b751ec4",
             },
           ],
+          enable: false,
         },
         {
           key: 2,
@@ -4861,6 +4863,7 @@
               snapshotUrls: "https://i.gkd.li/i/24560465",
             },
           ],
+          enable: false,
         },
         {
           key: 4,
@@ -4884,6 +4887,7 @@
               snapshotUrls: "https://i.gkd.li/i/12506201",
             },
           ],
+          enable: false,
         },
         {
           key: 5,
@@ -4943,6 +4947,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 6,
@@ -4957,6 +4962,7 @@
               exampleUrls: "https://e.gkd.li/4786186b-49ab-44e5-b3b1-c3b78db4802b",
             },
           ],
+          enable: false,
         },
         {
           key: 7,
@@ -5009,6 +5015,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 9,
@@ -5041,6 +5048,7 @@
               snapshotUrls: "https://i.gkd.li/i/25009442",
             },
           ],
+          enable: false,
         },
         {
           key: 10,
@@ -5082,6 +5090,7 @@
             },
           ],
           order: -10,
+          enable: true,
         },
         {
           key: 11,
@@ -5096,6 +5105,7 @@
               snapshotUrls: "https://i.gkd.li/i/12793745",
             },
           ],
+          enable: false,
         },
         {
           key: 17,
@@ -5126,6 +5136,7 @@
               snapshotUrls: "https://i.gkd.li/i/24796791",
             },
           ],
+          enable: false,
         },
         {
           key: 18,
@@ -5148,6 +5159,7 @@
               snapshotUrls: "https://i.gkd.li/i/13631987",
             },
           ],
+          enable: false,
         },
         {
           key: 19,
@@ -5166,6 +5178,7 @@
               snapshotUrls: "https://i.gkd.li/i/13790949",
             },
           ],
+          enable: false,
         },
         {
           key: 22,
@@ -5179,6 +5192,7 @@
               snapshotUrls: "https://i.gkd.li/i/14050004",
             },
           ],
+          enable: false,
         },
         {
           key: 25,
@@ -5191,6 +5205,7 @@
               snapshotUrls: "https://i.gkd.li/i/14392392",
             },
           ],
+          enable: true,
         },
         {
           key: 26,
@@ -5230,6 +5245,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 27,
@@ -5247,6 +5263,7 @@
               exampleUrls: "https://e.gkd.li/49b2d5ee-74a4-48e2-818a-8d3ef4c98930",
             },
           ],
+          enable: false,
         },
         {
           key: 28,
@@ -5278,6 +5295,7 @@
               snapshotUrls: "https://i.gkd.li/i/14436190",
             },
           ],
+          enable: true,
         },
         {
           key: 29,
@@ -5298,6 +5316,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 30,
@@ -5312,6 +5331,7 @@
               snapshotUrls: "https://i.gkd.li/i/14533286",
             },
           ],
+          enable: true,
         },
         {
           key: 31,
@@ -5342,6 +5362,7 @@
               snapshotUrls: "https://i.gkd.li/i/14549567",
             },
           ],
+          enable: true,
         },
         {
           key: 32,
@@ -5362,6 +5383,7 @@
               snapshotUrls: "https://i.gkd.li/i/14645385",
             },
           ],
+          enable: false,
         },
         {
           key: 34,
@@ -5392,6 +5414,7 @@
               snapshotUrls: "https://i.gkd.li/i/23746748",
             },
           ],
+          enable: false,
         },
         {
           key: 35,
@@ -5473,6 +5496,7 @@
               ],
             },
           ],
+          enable: true,
         },
         {
           key: 36,
@@ -5486,6 +5510,7 @@
               snapshotUrls: "https://i.gkd.li/i/16833732",
             },
           ],
+          enable: false,
         },
         {
           key: 37,
@@ -5509,6 +5534,7 @@
               excludeSnapshotUrls: "https://i.gkd.li/i/16958795",
             },
           ],
+          enable: true,
         },
         {
           key: 38,
@@ -5530,6 +5556,7 @@
               excludeSnapshotUrls: "https://i.gkd.li/i/18135054",
             },
           ],
+          enable: false,
         },
         {
           key: 39,
@@ -5550,6 +5577,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 40,
@@ -5572,6 +5600,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 41,
@@ -5595,6 +5624,7 @@
               snapshotUrls: "https://i.gkd.li/i/21705384",
             },
           ],
+          enable: false,
         },
         {
           key: 42,
@@ -5607,6 +5637,7 @@
               snapshotUrls: "https://i.gkd.li/i/23737039",
             },
           ],
+          enable: false,
         },
         {
           key: 43,
@@ -5619,6 +5650,7 @@
               snapshotUrls: "https://i.gkd.li/i/23737039",
             },
           ],
+          enable: false,
         },
         {
           key: 44,
@@ -5642,6 +5674,7 @@
               exampleUrls: "https://e.gkd.li/e48afed5-a42b-4167-b2f3-e0e89eb57645",
             },
           ],
+          enable: false,
         },
         {
           key: 45,
@@ -5663,6 +5696,7 @@
               ],
             },
           ],
+          enable: false,
         },
         {
           key: 46,
@@ -5678,6 +5712,7 @@
               exampleUrls: "https://e.gkd.li/13608598-f371-467a-8162-354110b8c79f",
             },
           ],
+          enable: false,
         },
         {
           key: 47,
@@ -5734,6 +5769,7 @@
               exampleUrls: "https://e.gkd.li/a83a2fb8-19ac-4a2f-aa08-03d5921d9328",
             },
           ],
+          enable: false,
         },
         {
           key: 48,
@@ -5753,6 +5789,7 @@
               exampleUrls: "https://e.gkd.li/0ee723f0-e6e5-4018-9cfa-7a8de22b91e1",
             },
           ],
+          enable: false,
         },
         {
           key: 49,
@@ -5767,6 +5804,7 @@
               exampleUrls: "https://e.gkd.li/9b2b5ed6-bf1d-4b13-aba5-b51e978df562",
             },
           ],
+          enable: false,
         },
         {
           key: 50,
@@ -5783,6 +5821,7 @@
               excludeSnapshotUrls: "https://i.gkd.li/i/27175665",
             },
           ],
+          enable: false,
         },
         {
           key: 51,
@@ -5797,6 +5836,7 @@
               exampleUrls: "https://e.gkd.li/d1aaa9d9-e7a1-4007-bb48-2b5f0faa346b",
             },
           ],
+          enable: false,
         },
         {
           key: 52,
@@ -5811,6 +5851,7 @@
               exampleUrls: "https://e.gkd.li/ad334a60-8a62-41f2-b123-e4a137daa89e",
             },
           ],
+          enable: false,
         },
         {
           key: 53,
@@ -5825,6 +5866,7 @@
               exampleUrls: "https://e.gkd.li/95edbe33-86d4-4075-99e1-cec1a6609595",
             },
           ],
+          enable: false,
         },
         {
           key: 54,
@@ -5840,6 +5882,7 @@
               exampleUrls: "https://e.gkd.li/d1813063-6580-4adc-be28-93226969e63b",
             },
           ],
+          enable: false,
         },
         {
           key: 55,
@@ -5860,6 +5903,7 @@
               exampleUrls: "https://e.gkd.li/59fb8537-9721-459a-992d-1d1e58d9c29f",
             },
           ],
+          enable: false,
         },
         {
           key: 56,
@@ -5877,6 +5921,7 @@
               exampleUrls: "https://e.gkd.li/0cb6496a-860e-41a5-b58a-16e07cc0214a",
             },
           ],
+          enable: false,
         },
         {
           key: 57,
@@ -5894,6 +5939,7 @@
               exampleUrls: "https://e.gkd.li/c3ca6901-9b7d-47d3-b879-69b615f8d09b",
             },
           ],
+          enable: false,
         },
       ],
     },
