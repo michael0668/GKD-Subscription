@@ -46,6 +46,18 @@ https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/s
 
 分类（categories）：开屏广告、青少年模式、更新提示、评价提示、通知提示、权限提示、局部广告、全屏广告、分段广告、功能类、其他。
 
+## Skill（规则生成助手）
+
+本仓库附带一个 `gkd-rule-generator` skill，位于 `skills/gkd-rule-generator/`，用于自动化生成 gkd 规则：
+
+| 文件 | 作用 |
+|------|------|
+| `SKILL.md` | 核心工作流指导 |
+| `scripts/parse_snapshot.py` | 快照解析脚本（解压 zip / 读 json，定位关闭、跳过按钮） |
+| `references/gkd-format.md` | gkd 选择器语法与规则 JSON 结构参考 |
+
+**用法**：在支持 skill 的 AI 工具（如 WorkBuddy）中加载该 skill，然后提供手机快照压缩包（`.zip`，含 `.json` 节点树与 `.webp` 截图），即可自动定位目标按钮并生成对应规则。
+
 ## 更新日志
 
 - **v4** (2026-11-12)：微信规则精简——仅保留 8 个广告跳过规则组，其余 38 个功能类/提示类规则组默认关闭。
