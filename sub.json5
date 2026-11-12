@@ -1,0 +1,54 @@
+// GKD 订阅规则
+// 存放地址: https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5
+{
+  id: 1001,
+  name: 'michael0668 规则',
+  version: 1,
+  author: 'michael0668',
+  updateUrl: 'https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5',
+  checkUpdateUrl: 'https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5',
+  supportUri: 'https://github.com/michael0668/GKD-Subscription',
+  categories: [],
+  globalGroups: [],
+  apps: [
+    {
+      id: 'com.heytap.themestore',
+      name: '主题商店',
+      groups: [
+        {
+          key: 0,
+          name: '关闭弹窗卡片',
+          activityIds: ['com.nearme.themespace.activities.ThemeMainActivity'],
+          rules: [
+            {
+              matches: 'ImageView[vid="close_button"]',
+              action: 'click',
+              snapshotUrls: ['https://i.gkd.li/i/1794462245270'],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: 'com.tencent.mm',
+      name: '微信',
+      groups: [
+        {
+          key: 0,
+          name: '小程序视频广告-跳过',
+          rules: [
+            {
+              matches: 'TextView[text="跳过"]',
+              action: 'clickCenter',
+              snapshotUrls: [
+                'https://i.gkd.li/i/1794461593896',
+                'https://i.gkd.li/i/1794464585836',
+                'https://i.gkd.li/i/1794465333876',
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
