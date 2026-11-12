@@ -35,7 +35,8 @@ https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/s
 
 ## 更新日志
 
-- **v1** (2026-11-12)：初始版本。包含主题商店、微信两条自定义规则，并整合 Lin-arm 全局规则。
+- **v2** (2026-11-12)：整合 Lin-arm 全局规则（categories + 3 条 globalGroups），全局规则全部启用。
+- **v1** (2026-11-12)：初始版本。包含主题商店、微信两条自定义规则。
 
 ## 致谢
 
