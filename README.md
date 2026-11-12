@@ -60,6 +60,7 @@ https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/s
 
 ## 更新日志
 
+- **v5** (2026-11-12)：主题商店新增「关闭底部悬浮小弹窗」规则（点 `content_float_img_close_icon` 关闭底部悬浮广告）。
 - **v4** (2026-11-12)：微信规则精简——仅保留 8 个广告跳过规则组，其余 38 个功能类/提示类规则组默认关闭。
 - **v3** (2026-11-12)：根据手机已安装应用，从 Lin-arm 订阅提取 44 个应用的规则并整合（微信 46、B站 34、抖音 31、拼多多 26、支付宝 26 等）。
 - **v2** (2026-11-12)：整合 Lin-arm 全局规则（categories + 3 条 globalGroups），全局规则全部启用。
