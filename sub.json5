@@ -1,7 +1,7 @@
 {
   id: 1001,
   name: "michael0668 规则",
-  version: 8,
+  version: 9,
   author: "michael0668",
   updateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
   checkUpdateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
@@ -5961,7 +5961,7 @@
           rules: [
             {
               matches: "ImageButton[desc=\"关闭\"][clickable=true]",
-              action: "click",
+              action: "clickCenter",
             },
           ],
         },
