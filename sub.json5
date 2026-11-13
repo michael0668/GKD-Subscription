@@ -1,7 +1,7 @@
 {
   id: 1001,
   name: "michael0668 规则",
-  version: 7,
+  version: 8,
   author: "michael0668",
   updateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
   checkUpdateUrl: "https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/sub.json5",
@@ -5957,9 +5957,6 @@
         {
           key: 58,
           name: "局部广告-小程序优惠弹窗-关闭X按钮",
-          activityIds: [
-            "com.tencent.mm.plugin.appbrand.ui.AppBrandUI00",
-          ],
           enable: true,
           rules: [
             {
