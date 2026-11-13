@@ -60,6 +60,7 @@ https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/s
 
 ## 更新日志
 
+- **v8** (2026-11-13)：微信「小程序优惠弹窗-关闭X按钮」改为通用版本（移除 Activity 限定，覆盖所有小程序页面）。
 - **v7** (2026-11-13)：微信新增「小程序优惠弹窗-关闭X按钮」规则（`ImageButton[desc="关闭"][clickable=true]`，AppBrandUI00）。
 - **v6** (2026-11-12)：新增夸克网盘（`com.quark.clouddrive`）「关闭弹窗」规则（点 `desc="关闭"` 的 X 按钮）。
 - **v5** (2026-11-12)：主题商店新增「关闭底部悬浮小弹窗」规则（点 `content_float_img_close_icon` 关闭底部悬浮广告）。
