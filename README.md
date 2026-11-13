@@ -60,6 +60,7 @@ https://raw.githubusercontent.com/michael0668/GKD-Subscription/refs/heads/main/s
 
 ## 更新日志
 
+- **v10** (2026-11-13)：删除微信「小程序优惠弹窗-关闭X按钮」规则（该 X 是 WebView 内 HTML 元素，gkd 无法定位，且误触了"关闭小程序"胶囊按钮）。
 - **v9** (2026-11-13)：微信「小程序优惠弹窗-关闭X按钮」改用 `clickCenter` 坐标点击（微信广告按钮对无障碍事件不响应）。
 - **v8** (2026-11-13)：微信「小程序优惠弹窗-关闭X按钮」改为通用版本（移除 Activity 限定，覆盖所有小程序页面）。
 - **v7** (2026-11-13)：微信新增「小程序优惠弹窗-关闭X按钮」规则（`ImageButton[desc="关闭"][clickable=true]`，AppBrandUI00）。
